@@ -6,7 +6,7 @@ public class DriverClass {
 	public static void binarySearch(int[] array, int key, int first, int last){
 		
 		int mid = (first + last)/2; //1
-		while (first<= last){
+		while (first<= last){ 
 			
 			
 			if(array[mid]<key){
